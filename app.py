@@ -7,7 +7,7 @@ import string
 app = FastAPI()  #initialising fastAPI
 
 #trained model and vectorizer
-log_reg_model = joblib.load("log_reg_model.joblib")
+log_reg_model = joblib.load("logistic_regression_model.joblib")
 tfidf_vectorizer = joblib.load("tfidf_vectorizer.joblib")
 
 print("Model and Vectorizer Loaded Successfully")
